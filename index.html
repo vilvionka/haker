@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital@0;1&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./main.css">
+  <title>IDeleter</title>
+</head>
+
+<body>
+
+
+  <div class="menu js_menu">
+    <div class="menu_wrap">
+      <div class="container">
+        <div class="menu_header">
+          <a href="#" class="first_logo">
+            <img src="./img/icon/logo.svg" alt="logo">
+          </a>
+          <div class="menu_close js_close">
+            <svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M10 1.78609L8.99286 0.786133L5 4.75052L1.00714 0.786133L0 1.78609L3.99286 5.75048L0 9.71487L1.00714 10.7148L5 6.75044L8.99286 10.7148L10 9.71487L6.00714 5.75048L10 1.78609Z"
+                fill="white" fill-opacity="0.52" />
+            </svg>
+          </div>
+        </div>
+        <a href="#second" class="menu_link">: удаляем</a>
+        <a href="#third" class="menu_link">: Блокируем</a>
+        <a href="#fifth" class="menu_link">: преимущества</a>
+        <a href="#last" class="menu_link">: о нас</a>
+        <div class="header_right_button menu_button">
+          <span>Связаться с ассистентом</span>
+          <svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11.9617 1.41004L10.1437 9.9041C10.0081 10.5023 9.66007 10.637 9.15727 10.367L6.43028 8.35978L5.09528 9.63344C4.96028 9.76877 4.82468 9.9041 4.51508 9.9041L4.72808 7.10468L9.81487 2.49148C10.0273 2.27891 9.75667 2.20166 9.48607 2.37591L3.16149 6.35198L0.433893 5.52204C-0.165505 5.32922 -0.165506 4.92323 0.569493 4.65377L11.1685 0.541773C11.6905 0.387281 12.1357 0.657941 11.9617 1.41004Z"
+              fill="white" />
+          </svg>
+        </div>
+        <div class="header_right_button">
+          <span>Канал в Telegram</span>
+          <svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11.9617 1.41004L10.1437 9.9041C10.0081 10.5023 9.66007 10.637 9.15727 10.367L6.43028 8.35978L5.09528 9.63344C4.96028 9.76877 4.82468 9.9041 4.51508 9.9041L4.72808 7.10468L9.81487 2.49148C10.0273 2.27891 9.75667 2.20166 9.48607 2.37591L3.16149 6.35198L0.433893 5.52204C-0.165505 5.32922 -0.165506 4.92323 0.569493 4.65377L11.1685 0.541773C11.6905 0.387281 12.1357 0.657941 11.9617 1.41004Z"
+              fill="white" />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="first">
+    <div class="main_flex_text" id="text1">IDELETR</div>
+    <div class="main_flex_haker image-background"></div>
+    <header>
+      <div class="container">
+        <a href="#" class="first_logo">
+          <img src="./img/icon/logo.svg" alt="logo">
+        </a>
+        <nav>
+          <a href="#second">:Удаляем</a>
+          <span>/</span>
+          <a href="#third">:Блокируем</a>
+          <span>/</span>
+          <a href="#fifth">:Преимущества</a>
+          <span>/</span>
+          <a href="#last">:О нас</a>
+        </nav>
+        <div class="header_right">
+          <div class="header_right_language">
+            <span class="active">RU</span>
+            <p></p>
+            <span>EN</span>
+          </div>
+          <div class="header_right_button">
+            <span>Связаться</span>
+            <svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.9617 1.41004L10.1437 9.9041C10.0081 10.5023 9.66007 10.637 9.15727 10.367L6.43028 8.35978L5.09528 9.63344C4.96028 9.76877 4.82468 9.9041 4.51508 9.9041L4.72808 7.10468L9.81487 2.49148C10.0273 2.27891 9.75667 2.20166 9.48607 2.37591L3.16149 6.35198L0.433893 5.52204C-0.165505 5.32922 -0.165506 4.92323 0.569493 4.65377L11.1685 0.541773C11.6905 0.387281 12.1357 0.657941 11.9617 1.41004Z"
+                fill="white" />
+            </svg>
+          </div>
+          <div class="header_burger js_header">
+            <svg width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 13H20V10.8333H0V13ZM0 7.58333H20V5.41667H0V7.58333ZM0 0V2.16667H20V0H0Z" fill="white" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="main">
+      <div class="container">
+        <div class="main_flex">
+          <h1 class="text1">IDeleter — спецрешения
+            без компромиссов.</h1>
+          <h1 class="text2">Удаление. Блокировки.
+            Репутация под контролем.</h1>
+
+        </div>
+      </div>
+      <div class="main_link">
+        <a href="#" class="main_link_item">
+          <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M20.5714 7.92C20.5714 7.45322 20.3908 7.00556 20.0693 6.67549C19.7478 6.34543 19.3118 6.16 18.8571 6.16H9.42857C9.20126 6.15995 8.98328 6.0672 8.82257 5.90216L6.50229 3.52H1.71429C1.25963 3.52 0.823593 3.70543 0.502103 4.03549C0.180612 4.36556 0 4.81322 0 5.28V20.24C0 20.7068 0.180612 21.1544 0.502103 21.4845C0.823593 21.8146 1.25963 22 1.71429 22H18.8571C19.3118 22 19.7478 21.8146 20.0693 21.4845C20.3908 21.1544 20.5714 20.7068 20.5714 20.24V7.92ZM7.71429 18.48H4.28571C4.05839 18.48 3.84037 18.3873 3.67962 18.2223C3.51888 18.0572 3.42857 17.8334 3.42857 17.6C3.42857 17.3666 3.51888 17.1428 3.67962 16.9777C3.84037 16.8127 4.05839 16.72 4.28571 16.72H7.71429C7.94161 16.72 8.15963 16.8127 8.32038 16.9777C8.48112 17.1428 8.57143 17.3666 8.57143 17.6C8.57143 17.8334 8.48112 18.0572 8.32038 18.2223C8.15963 18.3873 7.94161 18.48 7.71429 18.48ZM24 4.4V16.72C24 17.1868 23.8194 17.6344 23.4979 17.9645C23.1764 18.2946 22.7404 18.48 22.2857 18.48V7.92C22.2857 6.98644 21.9245 6.09111 21.2815 5.43098C20.6385 4.77086 19.7665 4.4 18.8571 4.4H9.78343L7.46314 2.01784C7.30243 1.8528 7.08445 1.76005 6.85714 1.76H3.42857C3.42857 1.29322 3.60918 0.845556 3.93067 0.515492C4.25216 0.185428 4.6882 0 5.14286 0H10.0003C10.2298 0.000391449 10.4568 0.0478437 10.6682 0.139571C10.8796 0.231299 11.071 0.365454 11.2311 0.53416L13.2197 2.64H22.2857C22.7404 2.64 23.1764 2.82543 23.4979 3.15549C23.8194 3.48556 24 3.93322 24 4.4Z"
+              fill="white" />
+          </svg>
+          <span>Кейсы</span>
+          <p><img src="./img/img/hover-link2.png" alt="img"></p>
+        </a>
+        <a href="#" class="main_link_item">
+          <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M25.9169 2.00209L21.9779 20.689C21.6841 22.0051 20.9301 22.3015 19.8408 21.7073L13.9323 17.2915L11.0398 20.0936C10.7473 20.3913 10.4535 20.689 9.78268 20.689L10.2442 14.5303L21.2655 4.38126C21.7257 3.9136 21.1395 3.74366 20.5532 4.12701L6.84989 12.8744L0.940102 11.0485C-0.358595 10.6243 -0.358595 9.73111 1.2339 9.13829L24.1983 0.0919002C25.3293 -0.247982 26.2939 0.34747 25.9169 2.00209Z"
+              fill="white" />
+          </svg>
+          <span>Канал в Telegram</span>
+          <p><img src="./img/img/hover-link.png" alt="img"></p>
+        </a>
+        <a href="#" class="main_link_item">
+          <svg width="66" height="21" viewBox="0 0 66 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M4.2075 21L5.995 13.2355L0 8.01316L7.92 7.32237L11 0L14.08 7.32237L22 8.01316L16.005 13.2355L17.7925 21L11 16.8829L4.2075 21Z"
+              fill="white" />
+            <path
+              d="M26.2075 21L27.995 13.2355L22 8.01316L29.92 7.32237L33 0L36.08 7.32237L44 8.01316L38.005 13.2355L39.7925 21L33 16.8829L26.2075 21Z"
+              fill="white" />
+            <path
+              d="M48.2075 21L49.995 13.2355L44 8.01316L51.92 7.32237L55 0L58.08 7.32237L66 8.01316L60.005 13.2355L61.7925 21L55 16.8829L48.2075 21Z"
+              fill="white" />
+          </svg>
+          <span>Отзывы</span>
+          <p><img src="./img/img/hover-link.png" alt="img"></p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="second" id="second">
+    <div class="container">
+      <div class="tittle_animation anim-items">
+        <h2 class="js_tittle" data-value="Удаляем информацию любой сложности:">Удаляем информацию любой
+          сложности:</h2>
+      </div>
+      <div class="second_flex">
+        <div class="second_flex_item anim-items">
+          <div class="second_flex_item-hover"></div>
+          <div class="second_flex_item_dot dot_left-top"></div>
+          <div class="second_flex_item_dot dot_right-top"></div>
+          <div class="second_flex_item_dot dot_left-bottom"></div>
+          <div class="second_flex_item_dot dot_right-bottom"></div>
+          <span>Компромат</span>
+          <img src="./img/img/section2-1.png" alt="img">
+          <a href="#">
+            <p>удалить</p>
+            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 10L10 1" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+              <path d="M1 1H10V10" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+        <div class="second_flex_item anim-items">
+          <div class="second_flex_item-hover"></div>
+          <div class="second_flex_item_dot dot_left-top"></div>
+          <div class="second_flex_item_dot dot_right-top"></div>
+          <div class="second_flex_item_dot dot_left-bottom"></div>
+          <div class="second_flex_item_dot dot_right-bottom"></div>
+          <span>Посты в соц.сетях</span>
+          <img src="./img/img/section2-2.png" alt="img">
+          <a href="#">
+            <p>удалить</p>
+            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 10L10 1" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+              <path d="M1 1H10V10" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+        <div class="second_flex_item anim-items">
+          <div class="second_flex_item-hover"></div>
+          <div class="second_flex_item_dot dot_left-top"></div>
+          <div class="second_flex_item_dot dot_right-top"></div>
+          <div class="second_flex_item_dot dot_left-bottom"></div>
+          <div class="second_flex_item_dot dot_right-bottom"></div>
+          <span>Отзывы на сайтах</span>
+          <img src="./img/img/section2-3.png" alt="img">
+          <a href="#">
+            <p>удалить</p>
+            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 10L10 1" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+              <path d="M1 1H10V10" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+        <div class="second_flex_item anim-items">
+          <div class="second_flex_item-hover"></div>
+          <div class="second_flex_item_dot dot_left-top"></div>
+          <div class="second_flex_item_dot dot_right-top"></div>
+          <div class="second_flex_item_dot dot_left-bottom"></div>
+          <div class="second_flex_item_dot dot_right-bottom"></div>
+          <span>Фото и видео</span>
+          <img src="./img/img/section2-4.png" alt="img">
+          <a href="#">
+            <p>удалить</p>
+            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 10L10 1" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+              <path d="M1 1H10V10" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+        <div class="second_flex_item anim-items">
+          <div class="second_flex_item-hover"></div>
+          <div class="second_flex_item_dot dot_left-top"></div>
+          <div class="second_flex_item_dot dot_right-top"></div>
+          <div class="second_flex_item_dot dot_left-bottom"></div>
+          <div class="second_flex_item_dot dot_right-bottom"></div>
+          <span>Деиндексация ссылок</span>
+          <img src="./img/img/section2-5.png" alt="img">
+          <a href="#">
+            <p>удалить</p>
+            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 10L10 1" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+              <path d="M1 1H10V10" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+        <div class="second_flex_item anim-items">
+          <div class="second_flex_item-hover"></div>
+          <div class="second_flex_item_dot dot_left-top"></div>
+          <div class="second_flex_item_dot dot_right-top"></div>
+          <div class="second_flex_item_dot dot_left-bottom"></div>
+          <div class="second_flex_item_dot dot_right-bottom"></div>
+          <span>Статьи и упоминания в СМИ</span>
+          <img src="./img/img/section2-6.png" alt="img">
+          <a href="#">
+            <p>удалить</p>
+            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 10L10 1" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+              <path d="M1 1H10V10" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="second_flex mobile swiper">
+      <div class="swiper-wrapper">
+        <div class="second_flex_item swiper-slide anim-items">
+          <div class="second_flex_item-hover"></div>
+          <div class="second_flex_item_dot dot_left-top"></div>
+          <div class="second_flex_item_dot dot_right-top"></div>
+          <div class="second_flex_item_dot dot_left-bottom"></div>
+          <div class="second_flex_item_dot dot_right-bottom"></div>
+          <span>Компромат</span>
+          <img src="./img/img/section2-1.png" alt="img">
+          <a href="#">
+            <p>удалить</p>
+            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 10L10 1" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+              <path d="M1 1H10V10" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+        <div class="second_flex_item swiper-slide anim-items">
+          <div class="second_flex_item-hover"></div>
+          <div class="second_flex_item_dot dot_left-top"></div>
+          <div class="second_flex_item_dot dot_right-top"></div>
+          <div class="second_flex_item_dot dot_left-bottom"></div>
+          <div class="second_flex_item_dot dot_right-bottom"></div>
+          <span>Посты в соц.сетях</span>
+          <img src="./img/img/section2-2.png" alt="img">
+          <a href="#">
+            <p>удалить</p>
+            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 10L10 1" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+              <path d="M1 1H10V10" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+        <div class="second_flex_item swiper-slide anim-items">
+          <div class="second_flex_item-hover"></div>
+          <div class="second_flex_item_dot dot_left-top"></div>
+          <div class="second_flex_item_dot dot_right-top"></div>
+          <div class="second_flex_item_dot dot_left-bottom"></div>
+          <div class="second_flex_item_dot dot_right-bottom"></div>
+          <span>Отзывы на сайтах</span>
+          <img src="./img/img/section2-3.png" alt="img">
+          <a href="#">
+            <p>удалить</p>
+            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 10L10 1" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+              <path d="M1 1H10V10" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+        <div class="second_flex_item swiper-slide anim-items">
+          <div class="second_flex_item-hover"></div>
+          <div class="second_flex_item_dot dot_left-top"></div>
+          <div class="second_flex_item_dot dot_right-top"></div>
+          <div class="second_flex_item_dot dot_left-bottom"></div>
+          <div class="second_flex_item_dot dot_right-bottom"></div>
+          <span>Фото и видео</span>
+          <img src="./img/img/section2-4.png" alt="img">
+          <a href="#">
+            <p>удалить</p>
+            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 10L10 1" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+              <path d="M1 1H10V10" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+        <div class="second_flex_item swiper-slide anim-items">
+          <div class="second_flex_item-hover"></div>
+          <div class="second_flex_item_dot dot_left-top"></div>
+          <div class="second_flex_item_dot dot_right-top"></div>
+          <div class="second_flex_item_dot dot_left-bottom"></div>
+          <div class="second_flex_item_dot dot_right-bottom"></div>
+          <span>Деиндексация ссылок</span>
+          <img src="./img/img/section2-5.png" alt="img">
+          <a href="#">
+            <p>удалить</p>
+            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 10L10 1" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+              <path d="M1 1H10V10" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+        <div class="second_flex_item swiper-slide anim-items">
+          <div class="second_flex_item-hover"></div>
+          <div class="second_flex_item_dot dot_left-top"></div>
+          <div class="second_flex_item_dot dot_right-top"></div>
+          <div class="second_flex_item_dot dot_left-bottom"></div>
+          <div class="second_flex_item_dot dot_right-bottom"></div>
+          <span>Статьи и упоминания в СМИ</span>
+          <img src="./img/img/section2-6.png" alt="img">
+          <a href="#">
+            <p>удалить</p>
+            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 10L10 1" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+              <path d="M1 1H10V10" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="third" id="third">
+    <div class="container">
+      <h2 class="js_tittle" data-value="Блокируем соц.сети и мессенджеры:">Блокируем соц.сети и мессенджеры:</h2>
+      <div class="third_flex">
+        <div class="third_flex_left anim-items">
+          <div class="third_flex_item">
+            <svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.26"
+                d="M22.9265 1.82008L19.442 18.8082C19.1821 20.0046 18.5151 20.2741 17.5514 19.7339L12.3247 15.7196L9.76595 18.2669C9.50721 18.5375 9.24731 18.8082 8.65391 18.8082L9.06216 13.2094L18.8118 3.98297C19.2189 3.55781 18.7003 3.40332 18.1816 3.75183L6.05952 11.704L0.831628 10.0441C-0.317219 9.65844 -0.317219 8.84646 1.09153 8.30754L21.4062 0.0835456C22.4067 -0.225438 23.26 0.315882 22.9265 1.82008Z"
+                fill="white" />
+            </svg>
+            <span>Telegram</span>
+          </div>
+          <div class="third_flex_item">
+            <svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.26"
+                d="M10.6561 14.2401L16.4634 22H25L15.4171 9.19356L23.3902 0H20.1585L13.9183 7.194L8.53659 0H0L9.15854 12.2406L0.695122 22H3.92683L10.6561 14.2401ZM17.6829 19.5556L4.87805 2.44444H7.31707L20.122 19.5556H17.6829Z"
+                fill="white" />
+            </svg>
+            <span>Twitter / X</span>
+          </div>
+          <div class="third_flex_item">
+            <svg width="30" height="21" viewBox="0 0 30 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.26"
+                d="M12 15L19.785 10.5L12 6V15ZM29.34 3.255C29.535 3.96 29.67 4.905 29.76 6.105C29.865 7.305 29.91 8.34 29.91 9.24L30 10.5C30 13.785 29.76 16.2 29.34 17.745C28.965 19.095 28.095 19.965 26.745 20.34C26.04 20.535 24.75 20.67 22.77 20.76C20.82 20.865 19.035 20.91 17.385 20.91L15 21C8.715 21 4.8 20.76 3.255 20.34C1.905 19.965 1.035 19.095 0.66 17.745C0.465 17.04 0.33 16.095 0.24 14.895C0.135 13.695 0.0899999 12.66 0.0899999 11.76L0 10.5C0 7.215 0.24 4.8 0.66 3.255C1.035 1.905 1.905 1.035 3.255 0.66C3.96 0.465 5.25 0.33 7.23 0.24C9.18 0.135 10.965 0.0899999 12.615 0.0899999L15 0C21.285 0 25.2 0.24 26.745 0.66C28.095 1.035 28.965 1.905 29.34 3.255Z"
+                fill="white" />
+            </svg>
+            <span>YouTube</span>
+          </div>
+          <div class="third_flex_item">
+            <svg width="27" height="16" viewBox="0 0 27 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.26" fill-rule="evenodd" clip-rule="evenodd"
+                d="M26.3807 1.08343C26.5674 0.459429 26.3807 0 25.4863 0H22.5333C21.7818 0 21.4353 0.396571 21.2474 0.834286C21.2474 0.834286 19.7456 4.48686 17.6183 6.85943C16.9298 7.54743 16.617 7.76571 16.2413 7.76571C16.0534 7.76571 15.771 7.54743 15.771 6.92229V1.08343C15.771 0.333714 15.564 0 14.9386 0H10.2947C9.82554 0 9.54317 0.347429 9.54317 0.677714C9.54317 1.38743 10.6074 1.552 10.7165 3.54971V7.89029C10.7165 8.84229 10.5444 9.01486 10.1687 9.01486C9.16743 9.01486 6.73186 5.34514 5.28626 1.14629C5.00615 0.329143 4.72265 0 3.96779 0H1.01248C0.168746 0 0 0.396571 0 0.834286C0 1.61371 1.00123 5.48571 4.66303 10.6069C7.10423 14.104 10.541 16 13.6718 16C15.5494 16 15.7812 15.5794 15.7812 14.8537V12.2103C15.7812 11.368 15.9589 11.2 16.554 11.2C16.9928 11.2 17.7431 11.4194 19.4958 13.1051C21.4983 15.104 21.8279 16 22.9551 16H25.9082C26.7519 16 27.1749 15.5794 26.9319 14.7474C26.6642 13.92 25.708 12.7189 24.4401 11.2937C23.7516 10.4823 22.7189 9.608 22.405 9.17029C21.9674 8.60914 22.0923 8.35886 22.405 7.85943C22.405 7.85943 26.005 2.80114 26.3796 1.08343"
+                fill="white" />
+            </svg>
+            <span>VK / Facebook</span>
+          </div>
+        </div>
+        <div class="third_flex_center anim-items">
+          <div class="third_flex_center_img">
+            <img src="./img/img/third.png" alt="img" class="js_img">
+          </div>
+          <div class="third_flex_center_line"></div>
+        </div>
+        <div class="third_flex_left anim-items">
+          <div class="third_flex_item">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.26"
+                d="M14 0C21.7322 0 28 6.2678 28 14C28 21.7322 21.7322 28 14 28C11.5259 28.0042 9.09523 27.3495 6.95802 26.103L0.00562163 28L1.89842 21.0448C0.650963 18.9069 -0.00431427 16.4752 2.13761e-05 14C2.13761e-05 6.2678 6.26782 0 14 0ZM9.22882 7.41999L8.94881 7.43119C8.76778 7.44367 8.5909 7.49122 8.42801 7.57119C8.27622 7.65731 8.1376 7.76481 8.01642 7.89039C7.84842 8.04859 7.75322 8.18579 7.65102 8.31879C7.13319 8.99206 6.85438 9.81863 6.85862 10.668C6.86142 11.354 7.04062 12.0218 7.32062 12.6462C7.89322 13.909 8.83541 15.246 10.0786 16.485C10.3782 16.7832 10.6722 17.0828 10.9886 17.3614C12.5334 18.7213 14.3742 19.7021 16.3646 20.2258L17.1598 20.3476C17.4188 20.3616 17.6778 20.342 17.9382 20.3294C18.3459 20.3079 18.7439 20.1975 19.1044 20.006C19.2876 19.9113 19.4665 19.8085 19.6406 19.698C19.6406 19.698 19.6999 19.6579 19.8156 19.572C20.0046 19.432 20.1208 19.3326 20.2776 19.1688C20.3952 19.0475 20.4932 18.9065 20.5716 18.746C20.6808 18.5178 20.79 18.0824 20.8348 17.7198C20.8684 17.4426 20.8586 17.2914 20.8544 17.1976C20.8488 17.0478 20.7242 16.8924 20.5884 16.8266L19.7736 16.4612C19.7736 16.4612 18.5556 15.9306 17.8108 15.5918C17.7328 15.5578 17.6493 15.5384 17.5644 15.5344C17.4686 15.5244 17.3718 15.5351 17.2805 15.5657C17.1892 15.5964 17.1055 15.6464 17.0352 15.7122C17.0282 15.7094 16.9344 15.7892 15.9222 17.0156C15.8641 17.0937 15.7841 17.1527 15.6923 17.1851C15.6006 17.2175 15.5013 17.2218 15.407 17.1976C15.3158 17.1733 15.2264 17.1424 15.1396 17.1052C14.966 17.0324 14.9058 17.0044 14.7868 16.954C13.983 16.6039 13.239 16.1301 12.5818 15.5498C12.4054 15.3958 12.2416 15.2278 12.0736 15.0654C11.5229 14.5379 11.0429 13.9412 10.6456 13.2902L10.563 13.1572C10.5046 13.0673 10.4567 12.971 10.4202 12.8702C10.367 12.6644 10.5056 12.4992 10.5056 12.4992C10.5056 12.4992 10.8458 12.1268 11.004 11.9252C11.158 11.7292 11.2882 11.5388 11.3722 11.403C11.5374 11.137 11.5892 10.864 11.5024 10.6526C11.1104 9.69499 10.7053 8.74253 10.2872 7.79519C10.2046 7.60759 9.95961 7.47319 9.73701 7.44659C9.66141 7.43726 9.58581 7.42979 9.51021 7.42419C9.32223 7.41341 9.13374 7.41528 8.94601 7.42979L9.22882 7.41999Z"
+                fill="white" />
+            </svg>
+            <span>WhatsApp</span>
+          </div>
+          <div class="third_flex_item">
+            <svg width="28" height="32" viewBox="0 0 28 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.26"
+                d="M24.514 6.84309C24.2957 6.73164 24.0835 6.60918 23.8779 6.47619C23.2799 6.08503 22.7318 5.62378 22.2454 5.10245C21.0265 3.72161 20.5713 2.32085 20.4048 1.34103H20.4105C20.2713 0.526173 20.3287 0 20.3387 0H14.7895V21.2503C14.7914 21.5347 14.7876 21.8167 14.778 22.0964L14.7723 22.2002C14.7723 22.2154 14.7708 22.231 14.768 22.2472V22.26C14.7097 23.0222 14.4632 23.7586 14.0501 24.4044C13.637 25.0501 13.07 25.5854 12.3989 25.9631C11.6996 26.3591 10.9073 26.5661 10.1017 26.5632C7.51733 26.5632 5.42111 24.4756 5.42111 21.8973C5.42111 19.3191 7.51733 17.23 10.1017 17.23C10.5913 17.23 11.078 17.3068 11.5432 17.4576L11.5504 11.8602C10.1376 11.6799 8.70246 11.7915 7.33541 12.188C5.96836 12.5845 4.69911 13.2573 3.60774 14.164C2.65167 14.9871 1.84759 15.9688 1.23154 17.0651C0.997513 17.4647 0.11308 19.0731 0.0068333 21.6812C-0.0606478 23.1601 0.388747 24.696 0.602677 25.3288V25.343C0.736203 25.7156 1.25882 26.9898 2.1088 28.0635C2.7949 28.9247 3.60465 29.6817 4.51227 30.3104V30.2962L4.52519 30.3104C7.21008 32.1165 10.1893 31.9984 10.1893 31.9984C10.7047 31.9771 12.432 31.9984 14.3932 31.0783C16.5684 30.0573 17.806 28.5371 17.806 28.5371C18.598 27.629 19.2273 26.5935 19.6668 25.4753C20.1693 24.167 20.3359 22.5998 20.3359 21.9741V10.6984C20.4033 10.7382 21.3007 11.3255 21.3007 11.3255C21.3007 11.3255 22.5929 12.1461 24.6073 12.6793C26.0517 13.059 28 13.1401 28 13.1401V7.68355C27.318 7.75749 25.9325 7.54418 24.5125 6.84451"
+                fill="white" />
+            </svg>
+            <span>TikTok</span>
+          </div>
+          <div class="third_flex_item">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.26"
+                d="M15.4392 0C17.0141 0.0041999 17.8135 0.0125997 18.5037 0.0321992L18.7752 0.0419989C19.0888 0.0531987 19.3982 0.0671983 19.772 0.0839979C21.2615 0.153996 22.2779 0.389191 23.1696 0.734982C24.0936 1.09057 24.8719 1.57216 25.6503 2.34914C26.3624 3.04875 26.9133 3.89537 27.2644 4.82988C27.6102 5.72166 27.8454 6.73804 27.9154 8.229C27.9322 8.60139 27.9462 8.91078 27.9574 9.22578L27.9658 9.49737C27.9868 10.1862 27.9952 10.9855 27.998 12.5605L27.9994 13.6049V15.4388C28.0028 16.46 27.9921 17.4811 27.9672 18.502L27.9588 18.7735C27.9476 19.0885 27.9336 19.3979 27.9168 19.7703C27.8468 21.2613 27.6088 22.2763 27.2644 23.1694C26.9133 24.104 26.3624 24.9506 25.6503 25.6502C24.9507 26.3623 24.1041 26.9132 23.1696 27.2643C22.2779 27.6101 21.2615 27.8453 19.772 27.9153L18.7752 27.9573L18.5037 27.9657C17.8135 27.9853 17.0141 27.9951 15.4392 27.9979L14.3949 27.9993H12.5624C11.5408 28.0029 10.5192 27.9922 9.49792 27.9671L9.22633 27.9587C8.894 27.9461 8.56175 27.9317 8.22958 27.9153C6.74006 27.8453 5.72371 27.6101 4.83055 27.2643C3.89656 26.913 3.05046 26.3622 2.35128 25.6502C1.63864 24.9507 1.08729 24.1041 0.735759 23.1694C0.389977 22.2777 0.154788 21.2613 0.084792 19.7703L0.0427941 18.7735L0.0357946 18.502C0.0099884 17.4811 -0.00167893 16.46 0.000796276 15.4388V12.5605C-0.00307858 11.5394 0.00718866 10.5182 0.0315948 9.49737L0.0413943 9.22578C0.0525937 8.91078 0.066593 8.60139 0.0833921 8.229C0.153389 6.73804 0.388577 5.72306 0.734359 4.82988C1.08671 3.89498 1.63903 3.04834 2.35268 2.34914C3.05146 1.63733 3.89706 1.08648 4.83055 0.734982C5.72371 0.389191 6.73866 0.153996 8.22958 0.0839979C8.60196 0.0671983 8.91275 0.0531987 9.22633 0.0419989L9.49792 0.0335991C10.5187 0.00872558 11.5398 -0.00200853 12.561 0.00139986L15.4392 0ZM14.0001 6.99983C12.1437 6.99983 10.3633 7.73731 9.05059 9.05003C7.7379 10.3628 7.00044 12.1432 7.00044 13.9997C7.00044 15.8561 7.7379 17.6366 9.05059 18.9493C10.3633 20.262 12.1437 20.9995 14.0001 20.9995C15.8565 20.9995 17.6369 20.262 18.9496 18.9493C20.2623 17.6366 20.9997 15.8561 20.9997 13.9997C20.9997 12.1432 20.2623 10.3628 18.9496 9.05003C17.6369 7.73731 15.8565 6.99983 14.0001 6.99983ZM14.0001 9.79976C14.5516 9.79967 15.0978 9.90821 15.6073 10.1192C16.1169 10.3302 16.5799 10.6395 16.97 11.0294C17.36 11.4193 17.6695 11.8823 17.8806 12.3918C18.0918 12.9013 18.2005 13.4474 18.2006 13.999C18.2007 14.5505 18.0921 15.0967 17.8812 15.6062C17.6702 16.1158 17.3609 16.5789 16.971 16.9689C16.5811 17.359 16.1181 17.6684 15.6086 17.8796C15.0991 18.0907 14.553 18.1995 14.0015 18.1996C12.8876 18.1996 11.8194 17.7571 11.0318 16.9694C10.2442 16.1818 9.8017 15.1135 9.8017 13.9997C9.8017 12.8858 10.2442 11.8175 11.0318 11.0299C11.8194 10.2423 12.8876 9.79976 14.0015 9.79976M21.3511 4.89988C20.887 4.89988 20.4419 5.08425 20.1137 5.41243C19.7856 5.74061 19.6012 6.18572 19.6012 6.64984C19.6012 7.11396 19.7856 7.55907 20.1137 7.88725C20.4419 8.21543 20.887 8.3998 21.3511 8.3998C21.8152 8.3998 22.2603 8.21543 22.5885 7.88725C22.9167 7.55907 23.101 7.11396 23.101 6.64984C23.101 6.18572 22.9167 5.74061 22.5885 5.41243C22.2603 5.08425 21.8152 4.89988 21.3511 4.89988Z"
+                fill="white" />
+            </svg>
+            <span>Instagram</span>
+          </div>
+          <div class="third_flex_item">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path opacity="0.26" fill-rule="evenodd" clip-rule="evenodd"
+                d="M10.0823 0.55326C7.36548 1.34144 4.95024 2.92682 3.1517 5.10256C1.35316 7.27831 0.254827 9.9434 0 12.7501H6.4257C6.80027 8.47903 8.04371 4.32851 10.0803 0.551261M6.4257 15.2499H0C0.254296 18.0568 1.35216 20.7221 3.15034 22.8982C4.94853 25.0743 7.36355 26.6601 10.0803 27.4488C8.04371 23.6715 6.80027 19.521 6.4257 15.2499ZM13.3012 27.9827C10.8666 24.1373 9.37399 19.7757 8.94378 15.2499H19.0542C18.624 19.7757 17.1314 24.1373 14.6968 27.9827C14.2319 28.0058 13.7661 28.0058 13.3012 27.9827ZM17.9197 27.4468C20.6362 26.6583 23.051 25.0727 24.8491 22.897C26.6473 20.7213 27.7453 18.0564 28 15.2499H21.5743C21.1997 19.521 19.9563 23.6715 17.9197 27.4488M21.5743 12.7521H28C27.7457 9.94529 26.6478 7.27994 24.8497 5.10384C23.0515 2.92773 20.6364 1.3419 17.9197 0.55326C19.9563 4.33051 21.1997 8.48103 21.5743 12.7521ZM13.3012 0.0173097C13.7668 -0.00576989 14.2332 -0.00576989 14.6988 0.0173097C17.1327 3.86292 18.6246 8.22454 19.0542 12.7501H8.94578C9.38153 8.19656 10.8775 3.83096 13.3012 0.0173097Z"
+                fill="white" />
+            </svg>
+            <span>Веб-сайты</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="fourth">
+    <div class="container">
+      <div class="tittle_animation anim-items">
+        <h2 class="js_tittle" data-value="Иные услуги:">Иные услуги:</h2>
+      </div>
+      <div class="fourth_flex">
+        <a href="#" class="fourth_flex_item anim-items">
+          <div class="fourth_flex_item_icon">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12.1308 0C13.3682 0.00329992 13.9963 0.00989976 14.5386 0.0252994L14.752 0.0329992C14.9984 0.041799 15.2415 0.0527987 15.5351 0.0659983C16.7055 0.120997 17.504 0.305793 18.2047 0.577486C18.9307 0.856879 19.5422 1.23527 20.1538 1.84576C20.7133 2.39545 21.1462 3.06065 21.422 3.79491C21.6937 4.49559 21.8785 5.29417 21.9335 6.46564C21.9467 6.75824 21.9577 7.00133 21.9665 7.24882L21.9731 7.46222C21.9896 8.00341 21.9962 8.63149 21.9984 9.86896L21.9995 10.6895V12.1305C22.0022 12.9328 21.9938 13.7352 21.9742 14.5372L21.9676 14.7506C21.9588 14.9981 21.9478 15.2412 21.9346 15.5338C21.8796 16.7053 21.6926 17.5028 21.422 18.2046C21.1462 18.9388 20.7133 19.604 20.1538 20.1537C19.6041 20.7133 18.9389 21.1461 18.2047 21.422C17.504 21.6937 16.7055 21.8785 15.5351 21.9335L14.752 21.9665L14.5386 21.9731C13.9963 21.9885 13.3682 21.9962 12.1308 21.9984L11.3103 21.9995H9.87043C9.06775 22.0023 8.26508 21.9939 7.46265 21.9742L7.24926 21.9676C6.98814 21.9577 6.72709 21.9463 6.4661 21.9335C5.29576 21.8785 4.4972 21.6937 3.79543 21.422C3.06158 21.1459 2.39679 20.7131 1.84743 20.1537C1.2875 19.6041 0.854302 18.9389 0.578097 18.2046C0.30641 17.5039 0.121619 16.7053 0.0666222 15.5338L0.0336239 14.7506L0.0281244 14.5372C0.00784803 13.7352 -0.00131916 12.9328 0.000625645 12.1305V9.86896C-0.00241889 9.06664 0.00564823 8.26432 0.0248245 7.46222L0.0325241 7.24882C0.0413236 7.00133 0.0523231 6.75824 0.0655224 6.46564C0.12052 5.29417 0.30531 4.49669 0.576997 3.79491C0.853846 3.06034 1.28781 2.39512 1.84853 1.84576C2.39757 1.28647 3.06198 0.85366 3.79543 0.577486C4.4972 0.305793 5.29466 0.120997 6.4661 0.0659983C6.75868 0.0527987 7.00287 0.041799 7.24926 0.0329992L7.46265 0.0263993C8.26472 0.00685581 9.06702 -0.00157813 9.86933 0.00109989L12.1308 0ZM11.0001 5.49987C9.54145 5.49987 8.14258 6.07932 7.11118 7.11074C6.07978 8.14217 5.50035 9.54108 5.50035 10.9997C5.50035 12.4584 6.07978 13.8573 7.11118 14.8887C8.14258 15.9202 9.54145 16.4996 11.0001 16.4996C12.4587 16.4996 13.8576 15.9202 14.889 14.8887C15.9204 13.8573 16.4998 12.4584 16.4998 10.9997C16.4998 9.54108 15.9204 8.14217 14.889 7.11074C13.8576 6.07932 12.4587 5.49987 11.0001 5.49987ZM11.0001 7.69981C11.4334 7.69974 11.8625 7.78502 12.2629 7.95079C12.6633 8.11656 13.0271 8.35957 13.3336 8.66595C13.64 8.97232 13.8832 9.33606 14.0491 9.7364C14.215 10.1367 14.3004 10.5658 14.3005 10.9992C14.3005 11.4325 14.2152 11.8617 14.0495 12.2621C13.8837 12.6624 13.6407 13.0263 13.3343 13.3327C13.028 13.6392 12.6642 13.8823 12.2639 14.0483C11.8636 14.2142 11.4345 14.2996 11.0012 14.2997C10.126 14.2997 9.28667 13.952 8.66784 13.3331C8.049 12.7143 7.70134 11.8749 7.70134 10.9997C7.70134 10.1245 8.049 9.28519 8.66784 8.66634C9.28667 8.04748 10.126 7.69981 11.0012 7.69981M16.7759 3.84991C16.4112 3.84991 16.0615 3.99477 15.8037 4.25262C15.5458 4.51048 15.4009 4.86021 15.4009 5.22487C15.4009 5.58954 15.5458 5.93927 15.8037 6.19712C16.0615 6.45498 16.4112 6.59984 16.7759 6.59984C17.1405 6.59984 17.4903 6.45498 17.7481 6.19712C18.006 5.93927 18.1508 5.58954 18.1508 5.22487C18.1508 4.86021 18.006 4.51048 17.7481 4.25262C17.4903 3.99477 17.1405 3.84991 16.7759 3.84991Z"
+                fill="white" />
+            </svg>
+          </div>
+          <div class="fourth_flex_item_tittle">Разблокировка Instagram:</div>
+          <p>Разблокируем ваш аккаунт быстро и просто, чтобы вы могли снова делиться моментами. </p>
+          <div class="fourth_flex_item_button">Разблокировать аккаунт</div>
+        </a>
+        <a href="#" class="fourth_flex_item anim-items">
+          <div class="fourth_flex_item_icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M23.4172 10.5856L21.7803 8.94909C21.3919 8.56061 21.0735 7.7929 21.0735 7.24235V4.92787C21.0735 3.82688 20.1741 2.92745 19.0733 2.92687H16.7579C16.2079 2.92687 15.4393 2.60794 15.0508 2.21975L13.4142 0.583205C12.6366 -0.194402 11.3634 -0.194402 10.5857 0.583205L8.94915 2.22092C8.5603 2.6094 7.79083 2.92745 7.24208 2.92745H4.92754C3.82799 2.92745 2.92737 3.82688 2.92737 4.92787V7.24241C2.92737 7.79079 2.60908 8.5609 2.22053 8.94915L0.583658 10.5857C-0.194553 11.3633 -0.194553 12.6365 0.583658 13.4153L2.22053 15.0519C2.60932 15.4404 2.92737 16.2102 2.92737 16.7586V19.0732C2.92737 20.173 3.82799 21.0736 4.92754 21.0736H7.24213C7.79206 21.0736 8.56066 21.3919 8.94921 21.7801L10.5858 23.4172C11.3634 24.1943 12.6366 24.1943 13.4143 23.4172L15.0508 21.7801C15.4397 21.3916 16.208 21.0736 16.7579 21.0736H19.0734C20.1741 21.0736 21.0736 20.173 21.0736 19.0732V16.7586C21.0736 16.2078 21.3921 15.4401 21.7804 15.0519L23.4173 13.4153C24.1943 12.6365 24.1943 11.3632 23.4172 10.5856ZM10.4123 16.5002L5.99949 12.0869L7.41376 10.6729L10.4127 13.6718L16.586 7.50011L17.9999 8.91405L10.4123 16.5002Z"
+                fill="white" />
+            </svg>
+          </div>
+          <div class="fourth_flex_item_tittle">Верификация Instagram:</div>
+          <p>Получите заветную галочку Instagram быстро и без усилий, повысив доверие к аккаунту.</p>
+          <div class="fourth_flex_item_button">Получить галочку</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="fifth" id="fifth">
+    <div class="container">
+      <h2 class="js_tittle" data-value="Безопасность и контроль">Безопасность и контроль</h2>
+      <div class="fifth_flex">
+        <div class="fifth_flex_item">
+          <span>Нет результата — нет оплаты</span>
+          <p>Оплата не за обещания, а за результат.</p>
+        </div>
+        <div class="fifth_flex_item">
+          <span>Только реальные методы</span>
+          <p>Методы реальные. Иллюзий не продаём.</p>
+        </div>
+        <div class="fifth_flex_item">
+          <span>Согласование каждого шага</span>
+          <p>Каждое действие — по согласованию.</p>
+        </div>
+        <div class="fifth_flex_item">
+          <span>Анонимность по умолчанию</span>
+          <p>Анонимность встроена. Следов не остаётся.</p>
+        </div>
+        <div class="fifth_flex_item">
+          <span>Крипта и никакой лишней инфы</span>
+          <p>Оплата — крипта. Без имён, без лишних данных.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="last trigger-block" id="last">
+    <div class="container">
+      <div class="last_tittle">
+        Мы не просим доверия.
+      </div>
+      <div class="last_subtittle">
+        Мы показываем, как оно выглядит.
+      </div>
+      <div class="hacking-animation">
+        <div class="hacking-animation__text anim-items">
+        </div>
+      </div>
+    </div>
+    <div class="main_link">
+      <a href="#" class="main_link_item">
+        <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M20.5714 7.92C20.5714 7.45322 20.3908 7.00556 20.0693 6.67549C19.7478 6.34543 19.3118 6.16 18.8571 6.16H9.42857C9.20126 6.15995 8.98328 6.0672 8.82257 5.90216L6.50229 3.52H1.71429C1.25963 3.52 0.823593 3.70543 0.502103 4.03549C0.180612 4.36556 0 4.81322 0 5.28V20.24C0 20.7068 0.180612 21.1544 0.502103 21.4845C0.823593 21.8146 1.25963 22 1.71429 22H18.8571C19.3118 22 19.7478 21.8146 20.0693 21.4845C20.3908 21.1544 20.5714 20.7068 20.5714 20.24V7.92ZM7.71429 18.48H4.28571C4.05839 18.48 3.84037 18.3873 3.67962 18.2223C3.51888 18.0572 3.42857 17.8334 3.42857 17.6C3.42857 17.3666 3.51888 17.1428 3.67962 16.9777C3.84037 16.8127 4.05839 16.72 4.28571 16.72H7.71429C7.94161 16.72 8.15963 16.8127 8.32038 16.9777C8.48112 17.1428 8.57143 17.3666 8.57143 17.6C8.57143 17.8334 8.48112 18.0572 8.32038 18.2223C8.15963 18.3873 7.94161 18.48 7.71429 18.48ZM24 4.4V16.72C24 17.1868 23.8194 17.6344 23.4979 17.9645C23.1764 18.2946 22.7404 18.48 22.2857 18.48V7.92C22.2857 6.98644 21.9245 6.09111 21.2815 5.43098C20.6385 4.77086 19.7665 4.4 18.8571 4.4H9.78343L7.46314 2.01784C7.30243 1.8528 7.08445 1.76005 6.85714 1.76H3.42857C3.42857 1.29322 3.60918 0.845556 3.93067 0.515492C4.25216 0.185428 4.6882 0 5.14286 0H10.0003C10.2298 0.000391449 10.4568 0.0478437 10.6682 0.139571C10.8796 0.231299 11.071 0.365454 11.2311 0.53416L13.2197 2.64H22.2857C22.7404 2.64 23.1764 2.82543 23.4979 3.15549C23.8194 3.48556 24 3.93322 24 4.4Z"
+            fill="white" />
+        </svg>
+        <span>Кейсы</span>
+        <p><img src="./img/img/hover-link2.png" alt="img"></p>
+      </a>
+      <a href="#" class="main_link_item">
+        <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M25.9169 2.00209L21.9779 20.689C21.6841 22.0051 20.9301 22.3015 19.8408 21.7073L13.9323 17.2915L11.0398 20.0936C10.7473 20.3913 10.4535 20.689 9.78268 20.689L10.2442 14.5303L21.2655 4.38126C21.7257 3.9136 21.1395 3.74366 20.5532 4.12701L6.84989 12.8744L0.940102 11.0485C-0.358595 10.6243 -0.358595 9.73111 1.2339 9.13829L24.1983 0.0919002C25.3293 -0.247982 26.2939 0.34747 25.9169 2.00209Z"
+            fill="white" />
+        </svg>
+        <span>Канал в Telegram</span>
+        <p><img src="./img/img/hover-link.png" alt="img"></p>
+      </a>
+      <a href="#" class="main_link_item">
+        <svg width="66" height="21" viewBox="0 0 66 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M4.2075 21L5.995 13.2355L0 8.01316L7.92 7.32237L11 0L14.08 7.32237L22 8.01316L16.005 13.2355L17.7925 21L11 16.8829L4.2075 21Z"
+            fill="white" />
+          <path
+            d="M26.2075 21L27.995 13.2355L22 8.01316L29.92 7.32237L33 0L36.08 7.32237L44 8.01316L38.005 13.2355L39.7925 21L33 16.8829L26.2075 21Z"
+            fill="white" />
+          <path
+            d="M48.2075 21L49.995 13.2355L44 8.01316L51.92 7.32237L55 0L58.08 7.32237L66 8.01316L60.005 13.2355L61.7925 21L55 16.8829L48.2075 21Z"
+            fill="white" />
+        </svg>
+        <span>Отзывы</span>
+        <p><img src="./img/img/hover-link.png" alt="img"></p>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer_item_left">
+        <a href="#" class="first_logo">
+          <img src="./img/icon/logo.svg" alt="logo">
+        </a>
+        <p>©2025 Все права защищены.</p>
+        <a href="#">Политика конфиденциальности</a>
+      </div>
+      <div class="footer_item_center">
+        <div class="footer_item_center_item">
+          <a href="#second">Удаляем</a>
+          <a href="#third">Блокируем</a>
+          <a href="#fifth">Преимущества</a>
+          <a href="#last">О нас</a>
+        </div>
+        <div class="footer_item_center_item">
+          <a href="#">Канал в Telegram</a>
+          <a href="#">Отзывы</a>
+          <a href="#">Кейсы</a>
+        </div>
+      </div>
+      <div class="footer_item_right">
+        <div class="header_right_button">
+          <span>Связаться с ассистентом</span>
+          <svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11.9617 1.41004L10.1437 9.9041C10.0081 10.5023 9.66007 10.637 9.15727 10.367L6.43028 8.35978L5.09528 9.63344C4.96028 9.76877 4.82468 9.9041 4.51508 9.9041L4.72808 7.10468L9.81487 2.49148C10.0273 2.27891 9.75667 2.20166 9.48607 2.37591L3.16149 6.35198L0.433893 5.52204C-0.165505 5.32922 -0.165506 4.92323 0.569493 4.65377L11.1685 0.541773C11.6905 0.387281 12.1357 0.657941 11.9617 1.41004Z"
+              fill="white" />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./main.js"></script>
+
+</body>
+
+</html>
